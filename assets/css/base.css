@@ -1,0 +1,110 @@
+.btn {
+  border-radius: 55px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+.btn-blue {
+  background: var(--blue);
+  color: #ffffff;
+}
+.btn-while {
+  border: 1.4px solid var(--primary);
+  color: var(--primary);
+}
+.btn-centre {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+:root {
+  --primary: #458ff6;
+  --gray: #7d7987;
+  --dark: #1f1534;
+  --secondary: #233348;
+  --background: #e5e5e5;
+  --background1: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  --background2: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  --blue: #4089ed;
+}
+.wrapper {
+  margin: 0px 190px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 33px;
+}
+.title-center {
+  text-align: center;
+}
+.title-while {
+  color: #fff;
+  text-align: center;
+}
+.line {
+  width: 56px;
+  height: 2px;
+}
+.line-while {
+  background: #fff;
+  margin: 0 auto 31px;
+}
+.line-black {
+  background: black;
+}
+.line-black-centre {
+  margin: 0 auto 31px;
+}
+.desc {
+  font-weight: 300;
+  margin: 0 auto;
+  color: var(--gray);
+  max-width: 952px;
+  margin-bottom: 80px;
+}
+.desc-while {
+  color: #fff;
+}
+.desc-centre {
+  text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo__left {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__left-blue {
+  background-color: var(--primary);
+}
+.logo__left-while {
+  background-color: #fff;
+}
+.logo__icon {
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo__icon-while {
+  color: #ffffff;
+}
+.logo__icon-blue {
+  color: var(--primary);
+}
+.logo__name {
+  font-weight: 700;
+  font-size: 24px;
+}
+.logo__name-while {
+  color: #fff;
+}
+.logo__name-blue {
+  color: var(--secondary);
+}

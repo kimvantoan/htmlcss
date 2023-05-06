@@ -1,0 +1,259 @@
+html,
+body {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+.header {
+  margin-top: 61px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__right {
+  display: flex;
+  gap: 40px;
+}
+.header__item {
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--dark);
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.header__item:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 84px;
+  gap: 109px;
+}
+.header__conten {
+  max-width: 480px;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.header__desc {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: var(--gray);
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
+
+.Ourservices {
+  margin-top: 192px;
+  position: relative;
+}
+.Ourservices__title {
+  text-align: center;
+}
+.card__list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 34px;
+  margin-bottom: 69px;
+}
+.card__item {
+  padding: 54px 45px 46.59px 39px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  width: 350px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  gap: 22.4px;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.card__desc {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray);
+  line-height: 28px;
+}
+
+.info {
+  margin: 220px 233px 0 135px;
+  display: flex;
+  gap: 229px;
+  flex-direction: column;
+}
+.info__top,
+.info__bottom {
+  display: flex;
+  align-items: center;
+  gap: 142px;
+}
+.slider {
+  width: 1120px;
+  height: 425px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 24px;
+  margin-top: 266px;
+}
+
+.slideWrap {
+  width: 300%;
+  height: 100%;
+}
+.slides {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  padding: 60px 118px 80px;
+}
+.slide1 {
+  background: var(--background2);
+}
+.slide2 {
+  background: var(--blue);
+}
+.slide3 {
+  background: var(--gray);
+}
+.slide__comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide__cus {
+  display: flex;
+  width: 50%;
+  gap: 33px;
+  align-items: center;
+  justify-content: center;
+}
+.slide__cus-img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1.3px solid #fff;
+}
+.slide__cus-img img {
+  object-fit: cover;
+}
+.slide__cus-info {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.slide__cus-name {
+  font-weight: 700;
+  font-size: 22px;
+}
+.slide__cus-dep {
+  color: rgba(255, 255, 255, 0.85);
+}
+.slide__saying {
+  color: #fff;
+  width: 420px;
+}
+.next__slide {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+  gap: 92px;
+  font-size: 21px;
+}
+.dot {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.next__dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--blue);
+  opacity: 0.3;
+  border-radius: 50%;
+}
+.check {
+  margin: 227px 50px 72px;
+}
+.check__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+  align-items: center;
+}
+.check__item {
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 350px;
+  height: 512px;
+}
+.check__content {
+  padding: 21px 51px 35px 33px;
+}
+.check__title {
+  font-weight: 700;
+  font-size: 21px;
+}
+.check__desc {
+  margin: 12px 0 25px;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray);
+}
+.check__readmore {
+  display: flex;
+  align-items: center;
+  color: var(--blue);
+  gap: 10px;
+}
+.check__text {
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--primary);
+  text-decoration: none;
+}
+.footer {
+  margin-top: 220px;
+  padding: 109px 190px;
+  background: var(--background2);
+  display: flex;
+  justify-content: space-between;
+}
+.footer__saying {
+  color: #fff;
+  width: 391px;
+  min-width: 391px;
+}
+.footter__desc {
+  margin: 22px 0px 31px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer__item {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 300;
+}
